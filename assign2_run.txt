@@ -1,0 +1,7 @@
+$> make debug
+gcc -DDEBUG -Wall -g -o assign2 assign2.c
+$> sudo chrt -f 50 ./assign2 < Test_Cases/in0.txt > debug0.txt
+$> sudo chrt -f 50 ./assign2 < Test_Cases/in1.txt > debug1.txt
+$> sudo chrt -f 50 ./assign2 < Test_Cases/in2.txt > debug2.txt
+exit
+Script done
